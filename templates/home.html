@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@heroicons/vue@2.0.16/24/outline/index.js" defer></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+  <div class="bg-white p-10 rounded-2xl shadow-lg text-center space-y-6">
+    <h1 class="text-2xl font-bold text-gray-800">Select an Option</h1>
+
+    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+
+      <!-- Text Translation -->
+      <a href="/api/text-translation" class="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg transition shadow-md">
+        <i class="fa-solid fa-language text-white text-xl"></i>
+        Text Translation
+      </a>
+
+      <!-- Video Transcript -->
+      <a href="/api/video-transcript" class="flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl text-lg transition shadow-md">
+        <i class="fa-solid fa-video text-white text-xl"></i>
+        Video Transcript
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Python environment metadata
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Uvicorn reload cache
+.reload/
+
+# Database / SQLite files
+*.db
+*.sqlite3
+
+# Static and media files (optional if dynamically generated)
+static/
+media/
+
+# Compiled files
+*.so
+
+# Docker files (optional, if generated dynamically)
+*.tar
+__dockerized__
+
+# Local files or secrets (optional)
